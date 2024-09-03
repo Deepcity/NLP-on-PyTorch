@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c128015-f086-4ce9-98f5-0614ae22532e" name="Changes" comment="添加README-firstcommit" />
+    <list default="true" id="6c128015-f086-4ce9-98f5-0614ae22532e" name="Changes" comment="添加CNN模型">
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_CNN.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +32,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Deepcity&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Deepcity/cnn-in-pytorch.git&quot;,
+    &quot;accountId&quot;: &quot;2128056b-faca-487c-b610-966b12904fd0&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -41,19 +60,38 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Deepcity/OneDrive/postGraduate-soochow/Sentiment-Analysis",
+    "last_opened_file_path": "C:/Users/Deepcity/OneDrive/postGraduate-soochow/cnn-text-classification-pytorch",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "vcs.Git",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Deepcity\OneDrive\postGraduate-soochow\Sentiment-Analysis\Dataset" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Deepcity\OneDrive\postGraduate-soochow\Sentiment-Analysis\Dataset\Movie_Review_Dataset" />
+      <recent name="C:\Users\Deepcity\OneDrive\postGraduate-soochow\Sentiment-Analysis\Dataset\compose" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-PY-242.21829.153" />
+        <option value="bundled-python-sdk-464836ebc622-b74155a9e76b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.21829.153" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -64,7 +102,15 @@
       <updated>1724931736376</updated>
       <workItem from="1724931738177" duration="1074000" />
       <workItem from="1724933118496" duration="470000" />
-      <workItem from="1724933624301" duration="681000" />
+      <workItem from="1724933624301" duration="3621000" />
+      <workItem from="1724998799841" duration="1240000" />
+      <workItem from="1725001358071" duration="429000" />
+      <workItem from="1725004988263" duration="577000" />
+      <workItem from="1725020630152" duration="596000" />
+      <workItem from="1725082607581" duration="592000" />
+      <workItem from="1725083723118" duration="602000" />
+      <workItem from="1725343540456" duration="19000" />
+      <workItem from="1725343574809" duration="2792000" />
     </task>
     <task id="LOCAL-00001" summary="添加README-firstcommit">
       <option name="closed" value="true" />
@@ -82,7 +128,23 @@
       <option name="project" value="LOCAL" />
       <updated>1724933365350</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="添加.idea">
+      <option name="closed" value="true" />
+      <created>1724934329951</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724934329951</updated>
+    </task>
+    <task id="LOCAL-00004" summary="添加CNN模型">
+      <option name="closed" value="true" />
+      <created>1724934375240</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724934375240</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +167,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加README-firstcommit" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加README-firstcommit" />
+    <MESSAGE value="添加.idea" />
+    <MESSAGE value="添加CNN模型" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加CNN模型" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/NLP_on_PyTorch$main.coverage" NAME="main Coverage Results" MODIFIED="1725343823869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Sentiment_Analysis$model_CNN.coverage" NAME="model_CNN Coverage Results" MODIFIED="1724936873623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
   </component>
 </project>
